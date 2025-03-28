@@ -1,0 +1,143 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.container {
+    margin-top: 5.5%;
+    width: 700px;
+    height: 850px;
+    background-color: rgb(37, 46, 144);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid white;
+    border-radius: 7px;
+}
+
+.div1 {
+    width: 100%;
+    height: 8.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.inputname {
+    width: 75%;
+    height: 100%;
+    text-align: center;
+    font-size: 25px;
+    border: 3px solid white;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.findDiv {
+    width: 10%;
+    height: 70px;
+    background: url(https://cdn.pixabay.com/photo/2013/07/12/15/55/clues-150586_640.png);
+    background-position: center;
+    background-size: 65%;
+    background-repeat: no-repeat;
+    border: 0px;
+}
+
+.div2 {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.list {
+    width: 90%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+}
+
+.red {
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div3 {
+    width: 90%;
+    height: 21.5%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(72, 71, 71);
+    margin-bottom: 15px;
+    border: 3px solid white;
+}
+
+.divForm {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form * {
+    width: 250px;
+    height: 34px;
+    text-align: center;
+    background-color: black;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input {
+    border: 2px dashed white;
+    outline: none;
+    color: white;
+    font-size: 19px;
+}
+
+.divAdd {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.addButton {
+    width: 120px;
+    height: 120px;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoX_rZq76KWx_gtx4fjZ2foUeiqce5jYPdAw&s);
+    border-radius: 50%;
+    background-position: center;
+    background-size: 101%;
+    background-repeat: no-repeat;
+    border: 0px;
+    cursor: pointer;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+    gap: 15px;
+    text-align: center;
+    font-size: 27px;
+    align-items: center;
+    overflow: hidden;
+}
+

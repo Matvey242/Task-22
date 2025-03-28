@@ -7,7 +7,7 @@ body {
 .container {
     margin-top: 5.5%;
     width: 700px;
-    height: 850px;
+    height: 720px;
     background-color: rgb(37, 46, 144);
     display: flex;
     flex-direction: column;
